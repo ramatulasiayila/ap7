@@ -137,6 +137,11 @@
                    document.getElementById('pas').innerHTML=" **please fill email";
                    return false;
               }
+                else if(u.length<8)
+             {  
+                  document.getElementById('pas').innerHTML= "Password must be at least 8 characters long.";  
+        return false;
+             }
                    
 
             //    var arr = []
